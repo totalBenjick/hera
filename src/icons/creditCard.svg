@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="50" viewBox="0 0 110 50">
+  <g id="Grupo_8803" data-name="Grupo 8803" transform="translate(6762 -16802)">
+    <rect id="Rectángulo_1" data-name="Rectángulo 1" width="110" height="50" transform="translate(-6762 16802)" fill="#aaa7ff" opacity="0"/>
+    <g id="XMLID_69_" transform="translate(-6730 16803)">
+      <path id="XMLID_115_" d="M42.687,40.727H2.507A2.506,2.506,0,0,1,0,38.22V10.507A2.506,2.506,0,0,1,2.507,8h40.18a2.506,2.506,0,0,1,2.507,2.507V38.22a2.506,2.506,0,0,1-2.507,2.507" fill="#f0c41b"/>
+      <rect id="XMLID_114_" width="45" height="6" transform="translate(0 11.727)" fill="#806f5e"/>
+      <path id="XMLID_113_" d="M12.792,27.558H5.779a.779.779,0,0,1,0-1.558h7.013a.779.779,0,0,1,0,1.558" transform="translate(-1.104 -3.974)" fill="#f9eab0"/>
+      <path id="XMLID_112_" d="M25.792,27.558H18.779a.779.779,0,1,1,0-1.558h7.013a.779.779,0,0,1,0,1.558" transform="translate(-3.974 -3.974)" fill="#f9eab0"/>
+      <path id="XMLID_111_" d="M6.558,32.558H5.779a.779.779,0,1,1,0-1.558h.779a.779.779,0,1,1,0,1.558" transform="translate(-1.104 -5.078)" fill="#f9eab0"/>
+      <path id="XMLID_110_" d="M12.338,32.558H10.779a.779.779,0,1,1,0-1.558h1.558a.779.779,0,1,1,0,1.558" transform="translate(-2.208 -5.078)" fill="#f9eab0"/>
+      <path id="XMLID_109_" d="M17.558,32.558h-.779a.779.779,0,1,1,0-1.558h.779a.779.779,0,1,1,0,1.558" transform="translate(-3.533 -5.078)" fill="#f9eab0"/>
+      <path id="XMLID_108_" d="M23.338,32.558H21.779a.779.779,0,1,1,0-1.558h1.558a.779.779,0,1,1,0,1.558" transform="translate(-4.637 -5.078)" fill="#f9eab0"/>
+      <path id="XMLID_107_" d="M27.779,32.561a.819.819,0,0,1-.553-.226A.8.8,0,0,1,27,31.782a.782.782,0,1,1,.779.779" transform="translate(-5.961 -5.081)" fill="#f9eab0"/>
+      <path id="XMLID_106_" d="M43.35,37.675A4.675,4.675,0,1,1,38.675,33a4.675,4.675,0,0,1,4.675,4.675" transform="translate(-7.507 -5.52)" fill="#db2215"/>
+      <path id="XMLID_105_" d="M50.35,37.675A4.675,4.675,0,1,1,45.675,33a4.675,4.675,0,0,1,4.675,4.675" transform="translate(-9.053 -5.52)" fill="#245ea9"/>
+    </g>
+  </g>
+</svg>
