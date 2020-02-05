@@ -1,4 +1,5 @@
 import React from 'react';
+import { ReactComponent as WA } from '../../icons/whatsapp.svg';
 
 function Footer() {
 	return (
@@ -51,6 +52,12 @@ function Footer() {
 					© 2020 Made by: Benjick Labs
 				</p>
 			</footer>
+			<a>
+				<WA
+					className="fixed dim pointer"
+					style={{ bottom: '88px', right: '10px' }}
+				/>
+			</a>
 		</>
 	);
 }

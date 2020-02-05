@@ -116,7 +116,6 @@ function AutoCarrousel({ items, index, setIndex, device }) {
 
 	const bullets = [];
 	const bulletWidth = Math.floor(windowWidth / items.length) * 0.8;
-	console.log(windowWidth);
 
 	for (let i = 0; i < items.length; i++) {
 		bullets.push(

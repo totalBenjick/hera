@@ -7,7 +7,7 @@ function CardLocation() {
 				<div className="tc">
 					<h1 className="f4">Nuestras tiendas</h1>
 					<hr className="mw3 bb bw1 b--green " />
-					<p className="lh-copy measure center f6 black-70">
+					<p className="lh-copy measure center f4 tj-ns black-70">
 						Nuestros aretes pueden ser encontrados en las siguientes
 						ubicaciones, si ninguna te queda bien, no dudes en
 						contactar con nosotros vía WhatsApp, tenemos un botón, al
