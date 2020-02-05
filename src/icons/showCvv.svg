@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="354px" height="214px" viewBox="0 0 354 214" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Group 17</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Checkout-F1-Alfa---Domicilio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="EKT-All-in-One-Kiosk---Guest-Checkout---Dom---009" transform="translate(-729.000000, -1013.000000)">
+            <g id="Contextual---Año" transform="translate(685.000000, 952.000000)">
+                <g id="Group-16">
+                    <g id="Contextual-CVV" transform="translate(0.000000, -0.000000)">
+                        <g id="Group-17" transform="translate(44.000000, 61.000000)">
+                            <rect id="Rectangle" fill="#C7C8DA" x="0" y="0" width="354" height="214" rx="12"></rect>
+                            <rect id="Rectangle" fill="#5A5B6A" x="0" y="36" width="354" height="44"></rect>
+                            <rect id="Rectangle" fill="#EFF1F4" x="30" y="100" width="240" height="30"></rect>
+                            <text id="Ej.-123" font-family="SourceSansPro-Italic, Source Sans Pro" font-size="18" font-style="italic" font-weight="normal">
+                                <tspan x="210" y="120" fill="#A5A5A5">Ej.  </tspan>
+                                <tspan x="234.606" y="120" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-size="20" font-weight="500" fill="#00BE32">123</tspan>
+                            </text>
+                            <circle id="Oval" stroke="#00BE32" stroke-width="2" cx="252" cy="115" r="22"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
