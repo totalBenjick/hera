@@ -1,3 +1,17 @@
+/**
+ * The only true AutoCarrousel.
+ *
+ * @version 1.0.0
+ * @author [totalBenjick](https://github.com/totalBenjick)
+ * @description Componente para renderizar carruseles
+ *
+ * @param {Objet} params props del componente React
+ * @param {Array} params.items Array que contiene el src de las imagenes
+ * @param {Number} params.index Número de la imagen actual a renderizar
+ * @param {Hook} params.setIndex  useState que controla que imagen se esta renderizando
+ * @param {Hook} params.device Hook que proporciona info del ambiente donde se esta desplegando la página
+ */
+
 import React, { useState } from 'react';
 import styles from './index.module.sass';
 import useInterval from '../../utils/useInterval';
@@ -7,12 +21,12 @@ import Img from 'react-image';
 const fps = 32;
 const incrementalStep = 8 * fps;
 
-function AutoCarrousel({ items, index, setIndex }) {
+function AutoCarrousel({ items, index, setIndex, device }) {
 	const [rightMovement, setRightMovement] = useState(true);
 	const [time, setTime] = useState(0);
 	const [swipe, setSwipe] = useState({ start: 0, end: 0 });
 	const lastIndex = items && items.length - 1;
-	console.log(items, lastIndex);
+	const windowWidth = device.width;
 
 	const handleTouchStart = e => {
 		const { screenX } = e.touches[0];
@@ -31,16 +45,17 @@ function AutoCarrousel({ items, index, setIndex }) {
 
 		e.preventDefault();
 
+		//Swipe end es mayor cuando usuario swipea queriendo mover el item de izq a derecha
 		if (swipe.end > swipe.start) {
 			if (index !== 0) {
 				setRightMovement(false);
 				setIndex(index - 1);
-			} else setIndex(-1);
+			} else setIndex(lastIndex);
 		} else if (swipe.start > swipe.end) {
 			if (index !== lastIndex) {
 				setRightMovement(true);
 				setIndex(index + 1);
-			} else setIndex(-1);
+			} else setIndex(0);
 		}
 		setTime(0);
 		return setSwipe({ start: 0, end: 0 });
@@ -72,7 +87,8 @@ function AutoCarrousel({ items, index, setIndex }) {
 			transform: `translateX(0%) ${windowStyle.transform || ''}`,
 		},
 		leave: {
-			opacity: 0.3,
+			display: 'none',
+			opacity: 0.0,
 			transform: `translateX(-102%) ${windowStyle.transform || ''}`,
 		},
 		config: config.default,
@@ -86,6 +102,7 @@ function AutoCarrousel({ items, index, setIndex }) {
 			transform: `translateX(0%) ${windowStyle.transform || ''}`,
 		},
 		leave: {
+			display: 'none',
 			opacity: 0.3,
 			transform: `translateX(102%) ${windowStyle.transform || ''}`,
 		},
@@ -96,10 +113,10 @@ function AutoCarrousel({ items, index, setIndex }) {
 		item => item,
 		transitionConfig
 	);
-	console.log(transitions, '97');
 
 	const bullets = [];
-	const bulletWidth = Math.floor(360 / items.length) * 0.95;
+	const bulletWidth = Math.floor(windowWidth / items.length) * 0.8;
+	console.log(windowWidth);
 
 	for (let i = 0; i < items.length; i++) {
 		bullets.push(
@@ -127,35 +144,36 @@ function AutoCarrousel({ items, index, setIndex }) {
 	}
 
 	return (
-		<div className={`${styles.container} bg-base`}>
-			{transitions.map(({ item, key, props }) => {
-				const node = items[item];
-				console.log(items, item, 'items');
-				return (
-					<animated.div
-						key={key}
-						className={`${styles.window}`}
-						style={{ ...props, windowStyle }}
-					>
-						<div
-							className={`${styles.content} flex items-center 
-                            justify-center`}
-							onTouchEnd={handleTouchEnd}
-							onTouchMove={handleTouchMove}
-							onTouchStart={handleTouchStart}
+		<>
+			<div className={`${styles.container} bg-base w-90 h5`}>
+				{transitions.map(({ item, key, props }) => {
+					const node = items[item];
+					return (
+						<animated.div
+							key={key}
+							className={`${styles.window}`}
+							style={{ ...props, windowStyle }}
 						>
-							<div className={styles.link}>
-								<Img
-									src={node.image}
-									className={`${styles.mainImage} w5 h5`}
-								/>
+							<div
+								className={`${styles.content} flex items-center 
+                            justify-center`}
+								onTouchEnd={handleTouchEnd}
+								onTouchMove={handleTouchMove}
+								onTouchStart={handleTouchStart}
+							>
+								<div className={styles.link}>
+									<Img
+										src={node.image}
+										className={`${styles.mainImage} w-100 mw6`}
+									/>
+								</div>
 							</div>
-						</div>
-					</animated.div>
-				);
-			})}
-			<div className={styles.bullets}>{bullets}</div>
-		</div>
+						</animated.div>
+					);
+				})}
+				<div className={styles.bullets}>{bullets}</div>
+			</div>
+		</>
 	);
 }
 
