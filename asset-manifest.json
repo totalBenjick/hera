@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/hera/static/css/main.8bcd401b.chunk.css",
+    "main.js": "/hera/static/js/main.3f4faafb.chunk.js",
+    "main.js.map": "/hera/static/js/main.3f4faafb.chunk.js.map",
+    "runtime-main.js": "/hera/static/js/runtime-main.7a8d7d82.js",
+    "runtime-main.js.map": "/hera/static/js/runtime-main.7a8d7d82.js.map",
+    "static/js/2.fb62b9cc.chunk.js": "/hera/static/js/2.fb62b9cc.chunk.js",
+    "static/js/2.fb62b9cc.chunk.js.map": "/hera/static/js/2.fb62b9cc.chunk.js.map",
+    "index.html": "/hera/index.html",
+    "precache-manifest.a208a1c77b358e4d426a1e5b231300ce.js": "/hera/precache-manifest.a208a1c77b358e4d426a1e5b231300ce.js",
+    "service-worker.js": "/hera/service-worker.js",
+    "static/css/main.8bcd401b.chunk.css.map": "/hera/static/css/main.8bcd401b.chunk.css.map",
+    "static/js/2.fb62b9cc.chunk.js.LICENSE": "/hera/static/js/2.fb62b9cc.chunk.js.LICENSE",
+    "static/media/1_table.jpg": "/hera/static/media/1_table.19d1ee1d.jpg",
+    "static/media/2_table.jpg": "/hera/static/media/2_table.069a29c5.jpg",
+    "static/media/3_table.jpg": "/hera/static/media/3_table.d9f45bde.jpg",
+    "static/media/location.05385550.svg": "/hera/static/media/location.05385550.svg",
+    "static/media/menu.3d488fd3.svg": "/hera/static/media/menu.3d488fd3.svg",
+    "static/media/tix_banner.png": "/hera/static/media/tix_banner.d96e7413.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a8d7d82.js",
+    "static/js/2.fb62b9cc.chunk.js",
+    "static/css/main.8bcd401b.chunk.css",
+    "static/js/main.3f4faafb.chunk.js"
+  ]
+}
