@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9ff4c671b88467c9a674248aa0e80a6",
+    "revision": "4a7919c9cfbaec61b726ab5035d78f3d",
     "url": "/hera/index.html"
   },
   {
-    "revision": "7632f5746686689ae6d9",
+    "revision": "cb5fa2c14ead047e8fdd",
     "url": "/hera/static/css/main.8bcd401b.chunk.css"
   },
   {
-    "revision": "afd0f570bfa33f2dc8a0",
-    "url": "/hera/static/js/2.437d3b99.chunk.js"
+    "revision": "127b3bf603f72ea5b1df",
+    "url": "/hera/static/js/2.515b4cc4.chunk.js"
   },
   {
-    "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/hera/static/js/2.437d3b99.chunk.js.LICENSE"
+    "revision": "c5930055a21c439b1783da4e9887b5d2",
+    "url": "/hera/static/js/2.515b4cc4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7632f5746686689ae6d9",
-    "url": "/hera/static/js/main.6f45ac4f.chunk.js"
+    "revision": "cb5fa2c14ead047e8fdd",
+    "url": "/hera/static/js/main.ca0e09a7.chunk.js"
   },
   {
-    "revision": "9d411423d12ce7a82e73",
-    "url": "/hera/static/js/runtime-main.7a8d7d82.js"
+    "revision": "dee25e9939df146fa345",
+    "url": "/hera/static/js/runtime-main.dfdd010f.js"
   },
   {
     "revision": "19d1ee1d198381ffe63147a15825332e",
