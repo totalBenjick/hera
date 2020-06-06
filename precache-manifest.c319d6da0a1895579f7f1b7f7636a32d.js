@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70d78e09da886ceea942685be132ebb8",
+    "revision": "5450834ae702d08ca4077c77bf6dc392",
     "url": "/hera/index.html"
   },
   {
-    "revision": "6b5cf76c976243e57c1f",
+    "revision": "ef55eff4bdf387e205d7",
     "url": "/hera/static/css/main.8bcd401b.chunk.css"
   },
   {
-    "revision": "5861c390e2e7b3ed5376",
-    "url": "/hera/static/js/2.fb62b9cc.chunk.js"
+    "revision": "d8561bff632369491c4b",
+    "url": "/hera/static/js/2.1f2e8635.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/hera/static/js/2.fb62b9cc.chunk.js.LICENSE"
+    "url": "/hera/static/js/2.1f2e8635.chunk.js.LICENSE"
   },
   {
-    "revision": "6b5cf76c976243e57c1f",
-    "url": "/hera/static/js/main.3f4faafb.chunk.js"
+    "revision": "ef55eff4bdf387e205d7",
+    "url": "/hera/static/js/main.1a521ef8.chunk.js"
   },
   {
     "revision": "9d411423d12ce7a82e73",
